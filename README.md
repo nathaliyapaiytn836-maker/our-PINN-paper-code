@@ -14,10 +14,13 @@ The project systematically investigates the performance of PINNs on the 1D Conve
 ## 📂 Repository Structure
 ```text
 .
-├── data/                   # Ground truth data from FEM simulations
-├── figures/                # Saved visualizations and error heatmaps
-├── main_1d_cd.py           # Script for 1D Convection-Diffusion
-├── main_1d_ac_AMAW.py      # Script for 1D Allen-Cahn using EPINNs(AMAW method)
-├── main_1d_ac_SA.py        # Script for 1D Allen-Cahn using SAPINN
-├── main_2d_ac.py           # Script for 2D Allen-Cahn (Merging circles)
+├── data/                           # Ground truth data from FEM simulations
+├── figures/                        # Saved visualizations and error heatmaps
+├── Task1_1D_Convection_Diffusion/  # Code for 1D Convection-Diffusion equation
+│   └── main_1d_cd.py
+├── Task2_1D_Allen_Cahn/            # Code for 1D Allen-Cahn equation
+│   └── main_1d_ac.py
+├── Task3_2D_Allen_Cahn/            # Code for 2D Allen-Cahn equation 
+│   └── main_2d_ac.py
+├── main_2d_ac.py                   # Script for 2D Allen-Cahn (Merging circles)
 └── README.md
